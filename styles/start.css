@@ -1,0 +1,53 @@
+.firstpage
+{   
+    
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2020/08/The-Big-Bang-Theory-Sheldon-Spock.jpg?q=50&fit=contain&w=1500&h=&dpr=1.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-blend-mode:hard-light;
+}
+.start_button{
+    font-size: xxx-large;
+    color: black;
+    font-weight: 800;
+    height: max-content;
+    width: max-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 60px 60px;
+    border: 20px;
+    border-radius: 15px;
+    box-sizing: content-box;
+    cursor: pointer;
+    position: fixed;
+    transition: background-position .3s ease-out, color .3s ease-out;
+    background: moccasin;
+    opacity: 0.5;
+    animation: forwards;
+    animation-duration: 0.3s;
+    top:auto ;
+    left:40%;
+}
+.start_button button{
+    cursor: pointer;
+    transition: background-position .3s ease-out, color .3s ease-out;
+}
+.heading{
+    font-size:70px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(56, 8, 8);
+    background-color:darkgrey;
+    top:40%;
+    left: 40%;
+    opacity:0.6;
+    padding: 90px 80px;
+    box-sizing: content-box;
+    word-wrap: break-word;
+    line-height: normal;
+    text-align: center;
+    height: 80px;
+    width:max-content;
+    animation: alternate-reverse;
+}
